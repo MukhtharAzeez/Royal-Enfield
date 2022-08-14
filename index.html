@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Royal Enfield</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/fcba624607.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+    />
+  </head>
+  <body>
+    <div class="fixed-navbar">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+          <a class="navbar-brand pt-2 ps-3" href="#"
+            ><img src="assets/images/logo.png" alt=""
+          /></a>
+          <button
+            class="navbar-toggler bg-light"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarScroll"
+            aria-controls="navbarScroll"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav mx-auto" style="--bs-scroll-height: 100px">
+              <li class="nav-item pe-3">
+                <a
+                  class="nav-link active text-white"
+                  id="motorcycles"
+                  aria-current="page"
+                  href="#"
+                  ><p>Motorcycles</p>
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link text-white pe-3" href="#"><p>Service</p></a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link text-white pe-3" href="#"
+                  ><p>Look The Part</p></a
+                >
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link text-white pe-3" href="#"><p>Rides</p></a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link text-white pe-3" href="#"><p>Finance</p></a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link text-white pe-3" href="#"><p>Reach Us</p></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <li class="nav-end">
+          <a
+            class="nav-link dropdown-toggle text-white pe-3 iddd"
+            href="#"
+            id="navbarScrollingDropdown"
+            role="button"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            Login
+          </a>
+          <i class="bi bi-search"></i>
+          <img src="assets/images/india-flag-icon-128.webp" alt="" />
+          <a
+            class="nav-link dropdown-toggle text-white pe-3 iddd"
+            href="#"
+            id="navbarScrollingDropdown"
+            role="button"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            En
+          </a>
+        </li>
+
+        <!-- <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button> -->
+      </nav>
+    </div>
+
+    <div class="container-fluid video">
+      <video autoplay loop muted>
+        <source
+          src="assets/videos/Royal Enfield Hunter 350 _ A Shot Of Motorcycling.mp4"
+        />
+      </video>
+      <!-- <i class="fa-solid fa-pause" id="videos"></i> -->
+      <i class="bi bi-pause-circle" id="videos"></i>
+    </div>
+
+    <div class="image1">
+      <img
+        src="assets/images/hunter-350-1.webp"
+        class="container-fluid"
+        alt=""
+      />
+      <button class="btn btn-danger">Explore</button>
+    </div>
+
+    <div
+      id="carouselExampleCaptions"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="3"
+          aria-label="Slide 4"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="4"
+          aria-label="Slide 5"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="5"
+          aria-label="Slide 6"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="6"
+          aria-label="Slide 7"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="7"
+          aria-label="Slide 8"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="8"
+          aria-label="Slide 9"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="9"
+          aria-label="Slide 10"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="assets/images/slide-1.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <!-- <h5>First slide label</h5>
+            <p>Some representative placeholder content for the first slide.</p> -->
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="assets/images/slide-2.webp"
+            class="d-block w-100"
+            alt="..."
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <!-- <h5>Second slide label</h5>
+            <p>Some representative placeholder content for the second slide.</p> -->
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="assets/images/slide-3.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <!-- <h5>Third slide label</h5>
+            <p>Some representative placeholder content for the third slide.</p> -->
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="assets/images/slide-4.webp"
+            class="d-block w-100"
+            alt="..."
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <!-- <h5>Third slide label</h5>
+            <p>Some representative placeholder content for the third slide.</p> -->
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="assets/images/slide-5.webp"
+            class="d-block w-100"
+            alt="..."
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <!-- <h5>Third slide label</h5>
+            <p>Some representative placeholder content for the third slide.</p> -->
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="assets/images/slide-6.webp"
+            class="d-block w-100"
+            alt="..."
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <!-- <h5>Third slide label</h5>
+            <p>Some representative placeholder content for the third slide.</p> -->
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="assets/images/slide-7.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <!-- <h5>Third slide label</h5>
+            <p>Some representative placeholder content for the third slide.</p> -->
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="assets/images/slide-8.webp"
+            class="d-block w-100"
+            alt="..."
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <!-- <h5>Third slide label</h5>
+            <p>Some representative placeholder content for the third slide.</p> -->
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="assets/images/slide-9.webp"
+            class="d-block w-100"
+            alt="..."
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <!-- <h5>Third slide label</h5>
+            <p>Some representative placeholder content for the third slide.</p> -->
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="assets/images/slide-10.webp"
+            class="d-block w-100"
+            alt="..."
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <!-- <h5>Third slide label</h5>
+            <p>Some representative placeholder content for the third slide.</p> -->
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-3 textOnImage">
+          <img
+            class="img-responsive fit-image"
+            src="assets/images/after-slide-1.jpg"
+            alt=""
+          />
+          <!-- <p>Royal Enfield Classic 350 wins big at Bike India awards</p> -->
+        </div>
+        <div class="col-md-3 textOnImage">
+          <img
+            class="img-responsive fit-image"
+            src="assets/images/after-slide-2.jpg"
+            alt=""
+          />
+          <!-- <p>Royal Enfield Classic 350 wins Modern Classic motorcycle of the year award at the Annual Car and Bike Awards</p> -->
+        </div>
+        <div class="col-md-3 textOnImage">
+          <img
+            class="img-responsive fit-image"
+            src="assets/images/after-slide-3.jpg"
+            alt=""
+          />
+          <!-- <p>The all new Classic 350 wins the Viewer's Choice bike of the year award at Autocar awards 2022</p> -->
+        </div>
+        <div class="col-md-3 textOnImage">
+          <img
+            class="img-responsive fit-image"
+            src="assets/images/after-slide-4.jpg"
+            alt=""
+          />
+          <!-- <p>The all new Classic 350 wins the motorcycle of the year award at BBC Top Gear awards 2022</p> -->
+        </div>
+      </div>
+    </div>
+
+    <div class="header2">
+      <h4>Motorcycles</h4>
+
+      <p class="red">Hunter 350</p>
+      <p>|</p>
+      <p>Scram 411</p>
+      <p>|</p>
+      <p>Classic</p>
+      <p>|</p>
+      <p>Interceptor</p>
+      <p>|</p>
+      <p>Continental GT</p>
+      <p>|</p>
+      <p>Meteor</p>
+      <p>|</p>
+      <p>Himalayan</p>
+      <p>|</p>
+      <p>Bullet</p>
+    </div>
+
+    <div class="width">
+      <img
+        src="assets/images/motorcycles.jpg"
+        class="container-fluid p-0"
+        alt=""
+      />
+      <button type="button" class="btn btn-outline-dark">Explore</button>
+    </div>
+
+    <div class="header2">
+      <h4>Rides</h4>
+
+      <p class="red">Rides</p>
+    </div>
+
+    <div class="container-fluid video2">
+      <video autoplay loop muted class="p-0">
+        <source src="assets/videos/astral-ride-1920x750.mp4" />
+      </video>
+      <button type="button" class="btn btn-outline-dark">Explore</button>
+    </div>
+
+    <div class="header2">
+      <h4>Apparel</h4>
+
+      <p class="red">Royal Enfield X Alpinestar</p>
+      <p>|</p>
+      <p>Scram 411 Collections</p>
+      <p>|</p>
+      <p>Royal Enfield x TCX</p>
+      <p>|</p>
+      <p>MIY Riding Jacket</p>
+      
+    </div>
+
+    <div class="width">
+      <img
+        src="assets/images/apparel.jpg"
+        class="container-fluid p-0"
+        alt=""
+      />
+      <button type="button" class="btn btn-outline-dark">Explore</button>
+
+    </div>
+
+
+    <div class="header2">
+      <h4>Accessories</h4>
+
+      <p class="red">Genuine Motorcycle Accessories</p>
+      <p>|</p>
+      <p>Make It Yours</p>
+      
+      
+    </div>
+
+    <div class="width">
+      <img
+        src="assets/images/Accessories.webp"
+        class="container-fluid p-0"
+        alt=""
+      />
+      <button type="button" class="btn btn-outline-dark btn-end">Know More</button>
+
+    </div>
+
+
+    <div class="header2">
+      <h4>Locate Us</h4>
+
+      <p class="red">Stores</p>
+      <p>|</p>
+      <p>Service Centers</p>
+      <p>|</p>
+      <p>Genuine Parts Distributers</p>
+      
+      
+    </div>
+
+    <div class="width">
+      <img
+        src="assets/images/Locate Us.jpg"
+        class="container-fluid p-0"
+        alt=""
+      />
+      <button type="button" class="btn btn-outline-dark btn-start">Find a Store</button>
+
+    </div>
+
+    <div class="header2">
+      <h4 id="center-h4">Popular Tags</h4>
+
+      
+      
+      
+    </div>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-3">
+          <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+           
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="assets/images/popular-1.webp" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                                    <!-- <h5>#VibeHunter</h5> -->
+
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="assets/images/popular-2.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <!-- <h5>#VibeHunter</h5> -->
+                  
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="assets/images/popular-3.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <!-- <h5>#VibeHunter</h5> -->
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="assets/images/popular-4.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <!-- <h5>#VibeHunter</h5> -->
+                </div>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+           
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="assets/images/popular-5.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="assets/images/popular-6.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+          
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="assets/images/popular-7.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="assets/images/popular-8.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  
+                </div>
+              </div>
+            </div>
+          
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="assets/images/popular-9.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+    
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="assets/images/popular-10.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="assets/images/popular-11.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+           
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="assets/images/popular-12.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                 
+                </div>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+
+
+        <div class="col-md-3">
+          <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="assets/images/popular-13.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="assets/images/popular-14.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+              
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="assets/images/popular-15.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+   
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="assets/images/popular-16.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+              
+                </div>
+              </div>
+            </div>
+           
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
