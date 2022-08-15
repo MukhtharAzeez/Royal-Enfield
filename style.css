@@ -2,8 +2,11 @@
   margin: 0;
   padding: 0;
   overflow-x: hidden;
+  
 }
-
+body{
+  background-color: black;
+}
 ::-webkit-scrollbar {
   display: none;
 }
@@ -63,10 +66,12 @@
   font-weight: 700;
   font-size: 14px;
 }
+
 .video {
   background-color: black;
-  position: relative;
-  margin-top: 50px;
+  padding-top: 200px;
+  margin-top: 97px;
+ 
 }
 .video video {
   position: block;
@@ -78,18 +83,57 @@
   position: relative;
 }
 .video i {
+  cursor: pointer;
   position: absolute;
-  bottom: 45%;
+  bottom: 35%;
   left: 48%;
   font-size: 65px;
   color: rgba(240, 255, 255, 0.266);
   display: none;
   transition-duration: 2s;
 }
-.video:hover #videos {
+.video:hover #pause  {
   display: block;
 }
+.video:hover #play  {
+  display: none; 
+}
+div.container-fluid.video{
+  padding: 0;
+}
+
+#bg{
+  padding: 0;
+  padding-top: 95px;
+ display: flex;
+ 
+ 
+}
+#login{
+  padding-right: 10px;
+  color: #fff;
+  padding-top: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  
+}
+#loginTitle{
+  position: absolute;
+  padding: 5% 0px 0px 37%;
+  color: #fff;
+  font-size: 1.8vw;
+  font-weight: bold;
+}
+.loginform{
+  position: absolute;
+  padding-left: 43%;
+  padding-top: 10%;
+}
+
+
+
 .image1 {
+  
   display: flex;
 }
 .image1 img {
@@ -220,4 +264,8 @@ display: flex;
 
 #center-h4{
   padding-left: 46%;
+}
+
+#header2{
+  height: 150px;
 }
