@@ -9,7 +9,6 @@ const lang = document.getElementById("lang");
 const navbar = document.getElementsByClassName("navbar");
 const bgBlack = document.getElementById("logbg");
 
-
 bg.style.display = "none";
 bgBlack.style.display = "none";
 lang.style.display = "none";
@@ -25,20 +24,30 @@ visibleLogin = function () {
     login.style.color = "red";
     bgBlack.style.display = "block";
     display.style.display = "none";
+
+    // language page remove
+    lang.style.display = "none";
+   
+    language.style.color = "white";
   }
 };
-visibleLanguage = function(){
- if(lang.style.display == "none"){
+visibleLanguage = function () {
+  if (lang.style.display == "none") {
     lang.style.display = "block";
     display.style.display = "none";
     language.style.color = "red";
- }else{
+
+    // login page remove
+    bg.style.display = "none";
+    login.style.color = "white";
+    bgBlack.style.display = "none";
+    
+  } else {
     lang.style.display = "none";
     display.style.display = "block";
     language.style.color = "white";
- }
-}
-
+  }
+};
 
 var a = true;
 function stop() {
@@ -50,4 +59,3 @@ function stop() {
     a = true;
   }
 }
-

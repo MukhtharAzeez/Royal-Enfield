@@ -133,10 +133,24 @@ div.container-fluid.video{
 }
 .loginform{
   position: absolute;
-  padding-left: 43%;
+  
   padding-top: 10%;
 }
-
+@media(min-width:720px){
+  .loginform{
+    padding-left: 43%;
+  }
+}
+@media(max-width:720px) and (min-width:540px){
+  .loginform{
+    padding-left: 33%;
+  }
+}
+@media(max-width:540px){
+  .loginform{
+    padding-left: 23%;
+  }
+}
 #logbg{
   width: 100%;
   height: 41.1rem;
