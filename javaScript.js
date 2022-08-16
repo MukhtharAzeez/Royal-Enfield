@@ -28,7 +28,6 @@ visibleLogin = function () {
 
     // language page remove
     lang.style.display = "none";
-   
     language.style.color = "white";
   }
 };
@@ -52,11 +51,12 @@ visibleLanguage = function () {
 
 
 stop = function () {
-  if (a == true) {
-    video.pause();
-    a = false;
-  } else {
-    video.play();
-    a = true;
-  }
+ video.pause();
+ pauseBtn.style.display = "none"
+ playBtn.style.display = "block";
 }
+resume = function () {
+  video.play();
+  pauseBtn.style.display = "block"
+  playBtn.style.display = "none";
+ }
