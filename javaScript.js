@@ -12,12 +12,13 @@ const bgBlack = document.getElementById("logbg");
 bg.style.display = "none";
 bgBlack.style.display = "none";
 lang.style.display = "none";
+var a = true;
 
 visibleLogin = function () {
   if (bg.style.display == "block") {
     bg.style.display = "none";
     login.style.color = "white";
-    bgBlack.style.display = "none";
+    bgBlack.style.display = "none"; 
     display.style.display = "block";
   } else {
     bg.style.display = "block";
@@ -49,8 +50,8 @@ visibleLanguage = function () {
   }
 };
 
-var a = true;
-function stop() {
+
+stop = function () {
   if (a == true) {
     video.pause();
     a = false;
