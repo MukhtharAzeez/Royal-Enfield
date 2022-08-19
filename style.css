@@ -56,6 +56,22 @@ body {
   color: rgba(255, 255, 255, 0.726);
   padding-right: 10px;
 }
+#down-arrow1{
+  padding: 14px 15px 0px 5px;
+  color: #fff;
+  font-size: 15px;
+  cursor: pointer;
+  transition: .8s;
+
+}
+#down-arrow2{
+  padding: 14px 15px 0px 0px;
+  color: #fff;
+  font-size: 15px;
+  cursor: pointer;
+  transition: .8s;
+
+}
 .nav-end img {
   padding: 11px 15px 0px 5px;
   width: 55px;
@@ -112,7 +128,7 @@ body {
   cursor: pointer;
   position: absolute;
   margin-top: 18%;
-  margin-left: 48%;
+  margin-left: 50%;
   font-size: 65px;
   color: rgba(240, 255, 255, 0.266);
   display: none;
@@ -376,4 +392,20 @@ button.btn-start {
 
 #header2 {
   height: 150px;
+}
+#footer-div-1 i{
+ width: 40px;
+  font-size: 30px;
+}
+#footer a{
+ text-decoration: none;
+ font-size: 12px;
+ color: black;
+}
+#footer p:hover{
+  color: red;
+}
+#footer h6{
+  font-size: 18px;
+  font-weight: 900;
 }
