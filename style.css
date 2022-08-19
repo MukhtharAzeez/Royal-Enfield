@@ -56,21 +56,19 @@ body {
   color: rgba(255, 255, 255, 0.726);
   padding-right: 10px;
 }
-#down-arrow1{
+#down-arrow1 {
   padding: 14px 15px 0px 5px;
   color: #fff;
   font-size: 15px;
   cursor: pointer;
-  transition: .8s;
-
+  transition: 0.8s;
 }
-#down-arrow2{
+#down-arrow2 {
   padding: 14px 15px 0px 0px;
   color: #fff;
   font-size: 15px;
   cursor: pointer;
-  transition: .8s;
-
+  transition: 0.8s;
 }
 .nav-end img {
   padding: 11px 15px 0px 5px;
@@ -134,11 +132,11 @@ body {
   display: none;
   transition-duration: 2s;
 }
-@media(max-width : 720px){
+@media (max-width: 720px) {
   .video i {
     margin-top: 18%;
-  margin-left: 44%;
-  font-size: 45px;
+    margin-left: 44%;
+    font-size: 45px;
   }
 }
 .video:hover #pause {
@@ -359,6 +357,17 @@ p.red {
   padding-right: 20px;
   padding-left: 20px;
 }
+@media (max-width: 720px) {
+  .width button {
+    position: absolute;
+    border-color: #fff;
+    color: #fff;
+    margin-top: 30%;
+    margin-left: 40%;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+}
 div.video2 {
   padding: 0;
   display: flex;
@@ -385,7 +394,35 @@ button.btn-start {
   margin-top: 18%;
   margin-left: 12%;
 }
+.greybg {
+  background-color: #212224;
+}
+.icons {
+  height: 20vh;
+}
+.icons i {
+  font-size: 58px;
+  color: #212224;
+  text-shadow: 0px 0px 1px rgb(255, 255, 255);
+  padding-left: 50%;
+}
+.icons p {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.377);
+  padding-left: 43%;
+}
+.icons p:hover{
+  
+  color: rgb(175, 32, 32);
+  
+}
+.icons i:hover + p{
+  color: rgb(175, 32, 32);
 
+}
+.iconpadd{
+  padding-top: 20px;
+}
 #center-h4 {
   padding-left: 46%;
 }
@@ -393,19 +430,22 @@ button.btn-start {
 #header2 {
   height: 150px;
 }
-#footer-div-1 i{
- width: 40px;
+#footer-div-1 i {
+  width: 40px;
   font-size: 30px;
 }
-#footer a{
- text-decoration: none;
- font-size: 12px;
- color: black;
+#footer a {
+  text-decoration: none;
+  font-size: 12px;
+  color: black;
 }
-#footer p:hover{
+#footer p:hover {
   color: red;
 }
-#footer h6{
+#footer h6 {
   font-size: 18px;
   font-weight: 900;
+}
+.titleHide {
+  display: none;
 }
